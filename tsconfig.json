@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "diagnostics": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "incremental": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "resolutions": {
+    "lucide-react": "0.400.0"
+  },
+  "declaration": true,
+  "declarationMap": true,
+  "exclude": ["node_modules", "apps/cypress.config.ts", "cypress/**/*.cy.js"]
+}
